@@ -18,6 +18,6 @@ Vagrant.configure("2") do |config|
     end
   end
 
-  config.vm.provision :shell, path: 'https://raw.github.com/cspace-puppet/cspace_puppet_bootstrap/master/scripts/bootstrap-cspace-modules.sh', args: "-y"
+  config.vm.provision :shell, path: 'https://raw.githubusercontent.com/cspace-puppet/cspace_puppet_bootstrap/v4.1/scripts/bootstrap-cspace-modules.sh', args: "-y"
 
 end
